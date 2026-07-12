@@ -1,0 +1,12 @@
+{
+  "name": "uni-resolver-driver-did-esim",
+  "version": "0.1.0",
+  "description": "Universal Resolver driver for did:esim",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {},
+  "license": "Apache-2.0"
+}

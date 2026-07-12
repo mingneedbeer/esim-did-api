@@ -1,0 +1,26 @@
+{
+  "name": "esim-did-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch elysia/standalone.ts",
+    "start": "bun run elysia/standalone.ts",
+    "astro:dev": "astro dev",
+    "astro:build": "astro build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "9",
+    "@elysiajs/swagger": "^1.3.1",
+    "@sinclair/typebox": "^0.34.52",
+    "astro": "5",
+    "elysia": "^1.4.29",
+    "openapi-types": "^12.1.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0",
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
